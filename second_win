@@ -29,7 +29,7 @@ class TestWin(QWidget):
         self.line_test3 = QLineEdit(txt_hinttest3)
         self.l_line = QVBoxLayout()
         self.r_line = QVBoxLayout()
-        self.h_line = QVBoxLayout()
+        self.h_line = QHBoxLayout()
         self.r_line.addWidget(self.text_timer, alignment = Qt.AlignCenter)
         self.l_line.addWidget(self.text_name, alignment = Qt.AlignLeft)
         self.l_line.addWidget(self.line_name, alignment = Qt.AlignLeft)
